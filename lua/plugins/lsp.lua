@@ -13,6 +13,7 @@ return {
 				"typescript-language-server",
 				"css-lsp",
 			})
+			table.insert(opts.ensure_installed, "black")
 		end,
 	},
 
